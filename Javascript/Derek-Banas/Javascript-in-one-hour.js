@@ -27,4 +27,43 @@ document.write("Balance is ", (CustBalance/12).toFixed(2), "<br />");
 document.write("Value of Pi ", Math.PI,"<br />");
 document.write("Value of E ", Math.E,"<br />");
 
+var customerData = {name: "Derek", age: "50", address:"NY"}
 
+for(k in customerData){
+	document.write(customerData[k], "<br />");
+}
+
+var arrayExample = ["Tom", 123.50, true];
+//arrays in JS can store any type of value. all indexing and slicing methods of an array
+//can be applied here
+
+function inArray(arrayToCheck, value){
+	for(i=0; i < arrayToCheck.length; i++){
+		if (arrayToCheck[i] === value){
+			return true;
+		}
+		}
+		return false;
+	
+}
+
+randArray = [1,2,3,4,5,6];
+
+document.write("In Array :", inArray(randArray, 4), "<br/>");
+
+//you can write a func with no arguements and 
+// use for loop and arguements.length to loop through
+// all the possible arguements that can be passed into that func.
+
+// recursvie function
+//calculating factorial
+function fact(num){
+
+	if(num <= 1){
+		return 1;
+	}
+	else{
+		return num * fact(num-1);
+	}
+
+}

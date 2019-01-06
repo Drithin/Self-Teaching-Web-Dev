@@ -61,9 +61,11 @@ function fact(num){
 
 	if(num <= 1){
 		return 1;
-	}
+	} //base func
 	else{
 		return num * fact(num-1);
 	}
 
 }
+
+

@@ -68,4 +68,19 @@ function fact(num){
 
 }
 
+//DOM events
+
+function openalert(mess){
+	alert(mess);
+}
+
+//We used it only when clicked.
+// Other events include:
+// onmouseover
+// onmouseout
+// ondblclick
+// onmousedown
+// onmouseup
+
+
 

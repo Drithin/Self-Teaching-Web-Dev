@@ -1,0 +1,5 @@
+A note on the gap:
+
+Lately, I have been lost in trying to attach all the pieces of HTML, CSS and JS I learnt in previous resources. 
+
+So I took a break from them and did w3 school exercises on HTML, CSS and JS and I strongly recommended everyone to do it to restore their confidence in coding a website.

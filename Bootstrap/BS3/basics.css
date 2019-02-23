@@ -1,0 +1,14 @@
+.btn-success{
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+
+.btn{
+	text-align: center;
+}
+
+.pink{
+	background-color: pink;
+	border: 1px solid purple;
+}

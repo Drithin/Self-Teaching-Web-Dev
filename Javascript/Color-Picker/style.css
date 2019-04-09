@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-grp, .text-color-change{
+	float: left;
+	width: 50%;
+}
+
+.text-color-change{
+	font-size: 100px;
+}
+
+.text-color-change h1{
+	text-align: left;
+}
+h1,h2{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn-grp button{
+	display: block;
+
+	
+}
+
+.red-color{
+	color: white;
+	background-color: red;
+	padding: 100px 100px;
+	width: 25%;
+	height: 25%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 20px;
+
+	
+}
+
+.blue-color{
+	color: white;
+	background-color: blue;
+	padding: 100px 100px;
+	width: 25%;
+	height: 25%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 20px;
+	
+}
+
+.green-color{
+	color: white;
+	background-color: green;
+	padding: 100px 100px;
+	width: 25%;
+	height: 25%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 20px;
+}
+

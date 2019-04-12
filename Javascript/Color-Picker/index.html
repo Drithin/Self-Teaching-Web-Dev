@@ -7,6 +7,9 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+	
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="script2.js"></script>
 
 </head>
 <body>
@@ -14,13 +17,13 @@
 	<h1>Pick a Color</h1>
 	<h2>Click on the color to change color of the text</h2>
 
-	<div id="main-box" class="main-box">
+	<div id="main-box" class="main-box" onclick="colorChanges()">
 	 <div class="btn-grp">
-	  <div class="red-color">Red</div>
-	  <div class="blue-color">Blue</div>
-	  <div class="green-color">Green</div>
+	  <div class="red-color" onclick="colorChange1()">Red</div>
+	  <div class="blue-color" onclick="colorChange2()">Blue</div>
+	  <div class="green-color" onclick="colorChange3()">Green</div>
 	 </div>
-	 <div class="text-color-change">
+	 <div id="text-color-change" class="text-color-change">
 		<h1>Text Here</h1>
 	</div>
 		

@@ -1,0 +1,118 @@
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+.grid-container{
+	margin: 0 auto;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	border: 1px solid black;
+	width: 20%;
+	height: 300px;
+	grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  
+}
+
+/*.full-board{
+	display: inline;
+}
+
+.board1{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+}
+
+.board11{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	
+}
+
+.board111{
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	}
+
+
+
+.board2{
+
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;	
+
+}
+
+.board22{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+
+	
+}
+
+.board222{
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	
+}
+
+.board3{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	
+	
+
+}
+
+.board33{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	
+	
+}
+
+.board333{
+	border-bottom: 1px solid black;
+	padding: 50px;
+	width: 5%;
+	
+	
+}*/
+
+
+
+/*.board2{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 50px;
+
+	width: 5%;
+}
+.board3{
+	
+	border-right: 1px solid black;
+	padding: 50px;
+
+	width: 5%;
+}*/

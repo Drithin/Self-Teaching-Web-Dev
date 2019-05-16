@@ -7,7 +7,7 @@
 .container{
 	display: grid;
 	
-	grid-template-rows: 100px 700px;
+	grid-template-rows: 150px 650px;
 }
 
 .header{
@@ -15,6 +15,17 @@
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 
+}
+
+#reset{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	background-color: chartreuse;
+	padding: 20px;
+	font-size: 25px;
+	border-radius: 10%;
+	border: none;
 }
 
 .appFunc{

@@ -1,6 +1,6 @@
 function colorChange1(){
 	document.getElementById("text-color-change").style.color = "red";
-	document.getElementById("h1").innerHTML = "Red";
+	document.getElementById("h1").innerHTML = "Red";	
 }
 
 function colorChange2(){
@@ -28,7 +28,15 @@ function colorChange6(){
 	document.getElementById("h1").innerHTML = "Tomato";
 }
 
+var resetButton = document.querySelector("#reset");
+console.log(resetButton);
 
+// if(resetButton){
+// 	resetButton.addEventListener("click", function(){
+// 		document.getElementById("text-color-change").style.color = "black";
+// 		document.getElementById("h1").innerHTML = "Color Name Here";
+// 	})
+// }
 
 
 

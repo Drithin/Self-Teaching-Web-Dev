@@ -28,16 +28,14 @@ function colorChange6(){
 	document.getElementById("h1").innerHTML = "Tomato";
 }
 
-var resetButton = document.querySelector("#reset");
-console.log(resetButton);
 
-// if(resetButton){
-// 	resetButton.addEventListener("click", function(){
-// 		document.getElementById("text-color-change").style.color = "black";
-// 		document.getElementById("h1").innerHTML = "Color Name Here";
-// 	})
-// }
 
+document.getElementById("reset").addEventListener("click", resetFunc);
+
+function resetFunc(){
+	document.getElementById("text-color-change").style.color = "black";
+    document.getElementById("h1").textContent = "Color Name Here";
+};
 
 
 
